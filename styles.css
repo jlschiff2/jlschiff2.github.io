@@ -1,0 +1,21 @@
+h1 {
+    color:cadetblue;
+    font-family:sans-serif;
+    font-size:xx-large;
+}
+h2 {
+    color:darkslategray;
+    font-family:sans-serif;
+    font-size: larger;
+}
+p,li {
+    color: darkslategray;
+    font-family: georgia;
+    font-size:medium;
+}
+img {
+    width:200px;
+    border-style: double;
+    border-width:8px;
+    color:cadetblue;
+}
