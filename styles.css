@@ -1,24 +1,30 @@
 
 h2 {
     color:darkslategray;
-    font-family:sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: larger;
 }
 p.lead {
     color: white;
-    font-family: georgia;
-    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+    text-align: right;
 }
 img.featured {
     width:300px;
 }
 h1.display-4 {
-    font-family:arial;
+    font-family:Arial, Helvetica, sans-serif;
     color:white;
+    font-size: xx-large;
+    text-align: right;
+    padding-right: 20px;
+    line-height:1;
 }
 
 .jumbotron-fluid {
-    background-color:#977E75;
+    background: url("jumbotron1.jpg") no-repeat center center;
+    background-size:cover;
 }
 
 p.title {
@@ -49,4 +55,10 @@ p.title {
 p.body {
     font-family:georgia;
     color: slategray;
+}
+
+.card {
+    height:300px;
+    width:300px;
+
 }
