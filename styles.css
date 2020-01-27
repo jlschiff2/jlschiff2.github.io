@@ -1,20 +1,21 @@
 
 h2 {
     color:darkslategray;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: larger;
 }
 p.lead {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size:xx-large;
     text-align: right;
 }
-img.featured {
-    width:300px;
+img.wip {
+    width:530px;
+    height:100px;
 }
 h1.display-4 {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;;
     color:white;
     font-size: xx-large;
     text-align: right;
@@ -28,7 +29,7 @@ h1.display-4 {
 }
 
 p.title {
-    font-family: 'Playfair Display', serif;
+    font-family:'Roboto', sans-serif;
     color:navy;
     font-size:larger;
 }
@@ -36,14 +37,14 @@ p.title {
 .dropdown-item {
     color:navy;
     font-size:medium;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-pills,.nav-link {
     border-radius: 0rem;
     color:navy;
     font-size:medium;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;;
 }
 
 .home-logo {
@@ -62,10 +63,37 @@ p.body {
     border-color: #b9a500;
 }
 .container-fluid {
-    background-color:navy;
+    background-color:lightgrey;
 }
 
 i {
     font-size: 32px;
     text-align: center;
+    color:navy;
+}
+
+.form-group {
+    font-family:'Roboto', sans-serif;
+    color:navy;
+    font-size:larger;
+}
+
+.placeholder {
+    font-family:'Roboto', sans-serif;
+    color: lightgray;
+}
+td {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: medium;
+}
+
+.fab,.far {
+    font-size:medium;
+    color: white;
+}
+
+img.body {
+    height: 200px;
+    width:350px;
 }
